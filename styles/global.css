@@ -43,6 +43,7 @@ img{
 }
 main{
   margin-top: 40px;
+  gap: 60px;
 }
 .content-tag{
   display: inline-block;
