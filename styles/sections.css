@@ -1,3 +1,9 @@
+section header{
+  border-top: 1px solid var(--stroke-color);
+  padding-block: 12px 24px;
+  font: var(--text-span);
+}
+
 #featured{
   img{
     height: 100%;
@@ -31,5 +37,25 @@
         padding: 12px;
       }
     }
+  }
+}
+#weekly{
+
+  header a {
+    justify-self: end;
+
+    span {
+      background-image: url(../assets/icons/ArrowRight.svg);
+      width: 16px;
+      height: 16px;
+    }
+  }  
+
+  &>div{
+    grid-template-columns: repeat(4,292px);
+  }
+
+  img{
+    height: 160px;
   }
 }
